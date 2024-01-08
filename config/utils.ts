@@ -23,7 +23,7 @@ export const lockInPeriod = "4 months"
 
 export const lockPeriodMonth: number = 4
 
-export const companyEmail = "bytemutual@outlook.com"
+export const companyEmail = "support@bytemutual.tech"
 
 export const companyNumber = "+1-3102691924"
 
