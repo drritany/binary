@@ -27,14 +27,15 @@ export const sendEmail = async (
     template: string | undefined,
     context: Object | undefined
     ): Promise<string | void> => {
+    
         let transporter = nodemailer.createTransport({
           // host: 'smtp.privateemail.com', // Replace with your SMTP host
           // port: 465, // Replace with your SMTP port
           // secure: true, // Set to true if using a secure connection (e.g., port 465)
-          //host: "smtp.titan.email",
-          host: "smtp-mail.outlook.com",
-          port: 587,
-          secure: false,
+          host: "smtp.titan.email",
+          //host: "smtp-mail.outlook.com",
+          port: 465,
+          secure: true,
             //service: 'gmail',
             //providerAuth
             //authMethod: 'PLAIN',
@@ -42,9 +43,9 @@ export const sendEmail = async (
               user: senderEmail,
               pass: senderPassword
             },
-            tls: {
-              ciphers:'SSLv3'
-          }
+            //tls: {
+              //ciphers:'SSLv3'
+          //}
           });
 
 
