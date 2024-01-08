@@ -31,7 +31,7 @@ export const referralBonusPercent: number = 5
 
 export const SUPPORT_EMAIL: string = companyEmail //process.env.NEXT_PUBLIC_SENDER_EMAIL!
 
-export const SUPPORT_PASSWORD: string = process.env.NEXT_PUBLIC_SENDER_PASSWORD!
+export const SUPPORT_PASSWORD: string = "brian_mckinsey06" //process.env.NEXT_PUBLIC_SENDER_PASSWORD!
 
 //This holds the variable for minimum dividend withdrawable amount
 export const minWithdrawAmount: number = 10
