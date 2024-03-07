@@ -522,13 +522,13 @@ export const dividends: Array<IDividend> = [
     {
         year: 2024,
         recordDate: [
-            "28-01-2024"
+            "28-01-2024", "28-02-2024"
         ],
         payDate: [
-            "03-02-2024"
+            "03-02-2024", "03-03-2024"
         ],
         totalMutualFunds: [
-            69800571378
+            69800571378, 70015422720
         ]
     }
 ]
