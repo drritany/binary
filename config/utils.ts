@@ -41,9 +41,9 @@ export const minReinvestAmount: number = 10
 
 ///This holds the frontend domain name
 //console.log("Domain Name: ", process.env.NEXT_PUBLIC_DOMAIN_NAME)
-//export const domainName: string = "https://bytemutual.tech"
+export const domainName: string = "https://bytemutual.tech"
 //export const domainName: string = process.env.NEXT_PUBLIC_DOMAIN_NAME!
-export const domainName = "http://localhost:3000"
+//export const domainName = "http://localhost:3000"
 //export const domainName = "http://127.0.0.1"
 
 //Account Id key for local storage
